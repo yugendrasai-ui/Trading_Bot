@@ -1,0 +1,80 @@
+body {
+    background: #111;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+/* Main container */
+.container {
+    max-width: 420px;
+    margin: 50px auto;
+    background: #1c1c1c;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form */
+.form-box label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+/* Inputs */
+.form-box input,
+.form-box select,
+.form-box button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.form-box input,
+.form-box select {
+    background: white;
+    color: black;
+}
+
+/* Button */
+.form-box button {
+    background: #f1c40f;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background: #d4ac0d;
+}
+
+/* Success box */
+.success-box {
+    background: #27ae60;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Error box */
+.error-box {
+    background: #c0392b;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.success-box h3,
+.error-box h3 {
+    margin-top: 0;
+}
