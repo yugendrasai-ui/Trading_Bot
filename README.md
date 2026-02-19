@@ -41,7 +41,7 @@ Trading_Bot/
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yugendrasai-ui/Trading-Bot.git  
+git clone https://github.com/yugendrasai-ui/Trading_Bot.git 
 cd Trading-Bot
 
 ---
